@@ -6,3 +6,4 @@ pydantic
 jinja2
 sentencepiece
 accelerate
+protobuf
