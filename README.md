@@ -1,3 +1,12 @@
+---
+title: Text Summarizer Demo
+emoji: 📝
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+---
+
 # Text Summarizer
 
 ## Project Overview
