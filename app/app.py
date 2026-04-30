@@ -24,7 +24,7 @@ app.mount(
     name="static",
 )
 
-MODEL_ID = os.getenv("MODEL_ID", "your-username/t5-dialogue-summarizer")
+MODEL_ID = os.getenv("MODEL_ID", "unnat17/Text-Summarizer")
 
 model = T5ForConditionalGeneration.from_pretrained(MODEL_ID)
 tokenizer = T5Tokenizer.from_pretrained(MODEL_ID)
