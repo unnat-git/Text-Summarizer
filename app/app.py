@@ -27,7 +27,7 @@ app.mount(
 MODEL_ID = os.getenv("MODEL_ID", "unnat17/Text-Summarizer")
 
 model = T5ForConditionalGeneration.from_pretrained(MODEL_ID)
-tokenizer = T5Tokenizer.from_pretrained(MODEL_ID)
+tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
 
 if torch.cuda.is_available():
     device = torch.device("cuda")
