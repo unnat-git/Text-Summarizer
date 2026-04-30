@@ -1,3 +1,4 @@
+# Trigger rebuild to clear model cache
 FROM python:3.9-slim
 
 # Set working directory
