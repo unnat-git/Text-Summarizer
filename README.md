@@ -9,6 +9,8 @@ app_port: 7860
 
 # Text Summarizer
 
+> **🚀 Live Demo:** [Try the application on Hugging Face Spaces](https://huggingface.co/spaces/unnat17/Text-Summarizer-Demo)
+
 ## Project Overview
 
 A full-stack web application that generates concise summaries from user-provided text. The backend uses a T5-small transformer model served through a FastAPI endpoint, while the frontend provides a minimal interface for text input and summary display.
